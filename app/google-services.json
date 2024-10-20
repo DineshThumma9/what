@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "878337451702",
+    "project_id": "sanjeevani-108e1",
+    "storage_bucket": "sanjeevani-108e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878337451702:android:468353fae516e63ad36817",
+        "android_client_info": {
+          "package_name": "com.example.experiment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJECRurrALqO-rEtIN9-zbclFADrg3uB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

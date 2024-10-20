@@ -1,0 +1,130 @@
+[versions]
+accompanistPermissions = "0.33.0-alpha"
+activityComposeVersion = "1.7.2"
+agp = "8.7.1"
+androidSdk = "11.5.2"
+androidxComposeBom = "2022.10.00"
+androidxComposeBomVersion = "2023.10.00"
+androidxCoreKtx = "1.13.1"
+androidxJunit = "1.2.1"
+androidxMaterial3 = "1.0.0"
+androidxMaterial3Version = "1.3.0"
+androidxNavigationCompose = "2.8.3"
+androidxUi = "1.7.4"
+androidxUiToolingPreview = "1.7.4"
+bom = "2023.10.00"
+bonuspack = "6.4.0"
+composeBomVersion = "2024.10.00"
+constraintlayoutComposeVersion = "1.0.1"
+coreKtxVersion = "1.12.0"
+espressoCoreVersion = "3.6.1"
+firebaseBom = "33.5.0"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinxCoroutinesAndroid = "1.7.3"
+kotlinxCoroutinesAndroidVersion = "1.9.0"
+kotlinxCoroutinesCore = "1.9.0"
+kotlinxCoroutinesCoreVersion = "1.9.0"
+lifecycleRuntimeKtx = "2.8.6"
+activityCompose = "1.9.2"
+composeBom = "2024.04.01"
+lifecycleViewmodelCompose = "2.8.6"
+material3 = "1.3.0"
+material3Version = "1.0.0-alpha01"
+materialIconsExtended = "1.7.4"
+materialIconsExtendedVersion = "1.7.4"
+navigationCompose = "2.8.2"
+navigationComposeVersion = "2.7.3"
+osmdroidAndroid = "6.1.20"
+playServicesLocation = "21.3.0"
+playServicesSomeFeature = "version"
+ui = "1.7.3"
+uiTestJunit4 = "1.7.4"
+uiTestJunit4Version = "1.7.4"
+uiTestManifest = "1.7.4"
+uiTooling = "1.7.3"
+uiToolingPreview = "1.7.3"
+constraintlayoutCompose = "1.0.1"
+uiToolingPreviewVersion = "1.2.0"
+uiToolingVersion = "1.7.4"
+uiVersion = "1.2.0"
+firebaseAuthKtx = "23.1.0"
+playServicesMaps = "19.0.0"
+maps = "3.1.0-beta"
+
+[libraries]
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistPermissions" }
+android-sdk = { module = "org.maplibre.gl:android-sdk", version.ref = "androidSdk" }
+androidx-activity-compose-v172 = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
+androidx-bom = { module = "androidx.compose:bom", version.ref = "bom" }
+androidx-compose-bom-v20231000 = { module = "androidx.compose:compose-bom", version.ref = "androidxComposeBomVersion" }
+androidx-compose-bom-v20241000 = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
+androidx-constraintlayout-compose-v100alpha08 = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayoutComposeVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-ktx-v1120 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+androidx-core-ktx-v170 = { module = "androidx.core:core-ktx", version.ref = "androidxCoreKtx" }
+androidx-espresso-core-v340 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+androidx-junit-v113 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-compose-v240 = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
+androidx-material-icons-extended-v150 = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtendedVersion" }
+androidx-material3-icons-extended = { module = "androidx.compose.material3:material3-icons-extended", version.ref = "androidxMaterial3Version" }
+androidx-material3-v100 = { module = "androidx.compose.material3:material3", version.ref = "androidxMaterial3" }
+androidx-material3-v100alpha01 = { module = "androidx.compose.material3:material3", version.ref = "material3Version" }
+androidx-material3-v120 = { module = "androidx.compose.material3:material3", version.ref = "androidxMaterial3Version" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+androidx-navigation-compose-v240alpha10 = { module = "androidx.navigation:navigation-compose", version.ref = "androidxNavigationCompose" }
+androidx-navigation-compose-v273 = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
+androidx-ui-test-junit4-v120 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "uiTestJunit4Version" }
+androidx-ui-test-manifest-v174 = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "uiTestManifest" }
+androidx-ui-text-google-fonts = { module = "androidx.compose.ui:ui-text-google-fonts", version.ref = "androidxUi" }
+androidx-ui-tooling-preview-v120 = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "uiToolingPreviewVersion" }
+androidx-ui-tooling-preview-v174 = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "androidxUiToolingPreview" }
+androidx-ui-tooling-v120 = { module = "androidx.compose.ui:ui-tooling", version.ref = "uiToolingVersion" }
+androidx-ui-v120 = { module = "androidx.compose.ui:ui", version.ref = "uiVersion" }
+androidx-ui-v174 = { module = "androidx.compose.ui:ui", version.ref = "androidxUi" }
+bonuspack = { module = "fr.openstreetmap.bonuspack:bonuspack", version.ref = "bonuspack" }
+compose-bom-v20221000 = { module = "androidx.compose:compose-bom", version.ref = "androidxComposeBom" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-android-v152 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroidVersion" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+kotlinx-coroutines-core-v152 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCoreVersion" }
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+osmdroid-android = { module = "org.osmdroid:osmdroid-android", version.ref = "osmdroidAndroid" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+play-services-some-feature = { module = "com.google.android.gms:play-services-some-feature", version.ref = "playServicesSomeFeature" }
+ui = { module = "androidx.compose.ui:ui", version.ref = "ui" }
+ui-graphics = { module = "androidx.compose.ui:ui-graphics", version.ref = "androidxUi" }
+ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "uiTestJunit4" }
+ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "uiToolingPreviewVersion" }
+ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "uiTooling" }
+ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "uiToolingPreview" }
+androidx-constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
+maps = { group = "com.google.android.libraries.maps", name = "maps", version.ref = "maps" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
