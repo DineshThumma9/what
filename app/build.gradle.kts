@@ -7,6 +7,29 @@ plugins {
     id("kotlin-kapt")
 }
 
+
+android {
+
+    signingConfigs {
+        create("release") {
+            keyAlias = "key0" // Replace with your key alias
+            keyPassword = "hello1" // Replace with your key password
+            storeFile = file("C:\\Users\\dines\\Downloads\\experiment.jks") // Replace with the path to your keystore file
+            storePassword = "hello" // Replace with your keystore password
+        }
+    }
+    buildTypes {
+        getByName("release") {
+            signingConfig = signingConfigs.getByName("release")
+            isMinifyEnabled = true// Set to true if you want to enable ProGuard
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+    }
+}
+
 android {
     namespace = "com.example.experiment"
     compileSdk = 34
